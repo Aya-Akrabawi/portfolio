@@ -1,0 +1,112 @@
+/* Main */
+
+#main {
+    margin-left: 375px;
+}
+
+    #main > section {
+        margin: 0;
+        overflow: hidden;
+        padding: 4em 0;
+        box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+        text-align: center;
+        background-image: url("images/overlay.png");
+    }
+
+        #main > section.dark {
+            color: #ddd;
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+            #main > section.dark h2, #main > section.dark 
+            , #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+                color: inherit;
+            }
+
+            #main > section.dark strong {
+                color: #fff;
+                border-color: inherit;
+            }
+
+            #main > section.dark a {
+                color: #fff;
+                border-color: inherit;
+            }
+
+                #main > section.dark a:hover {
+                    border-bottom-color: rgba(255, 255, 255, 0);
+                }
+
+        #main > section.cover {
+            padding: 10em 0;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        #main > section.one {
+            background-color: #81918E;
+            background-image: url("../../images/dev.png");
+        }
+
+        #main > section.two {
+            background-color: #faf5f5;
+        }
+
+        #main > section.three {
+            background-color: #faf5f5;
+        }
+
+        #main > section.four {
+            background-color: #faf5f5;
+        }
+
+        body {
+            line-height: 1;
+        }
+        body {
+            -webkit-text-size-adjust: none;
+        }
+        body {
+            background: #fff;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 19pt;
+            font-weight: 300;
+            line-height: 1.75em;
+            color: #888;
+        }
+        /* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+
+
+
